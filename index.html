@@ -11,32 +11,51 @@
 <body>
     <div class="container">
         <div class="left-side">
-            <img src="" alt="" srcset="">
             <div class="logo-container">
-                <img src="" alt="" srcset="">
-                <div class="logo-name"></div>
+                <div class="logo-name">
+                    <img class="odin-logo" src="./odin-logo.png" alt="" srcset="">
+                    <p class="odin-name">ODIN</p>
+                </div>
             </div>
-            <p class="para-text">Phot by:</p>
+            <p class="para-text">Photo by <a href="https://unsplash.com/@n8rayfield?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">nate rayfield</a> on <a href="https://unsplash.com/s/photos/james-webb-space-telescope?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
         </div>
         <div class="right-side">
-            <h3>This is not a real online serivce! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started. You know you want to.</h3>
+            <h3 class="title-text">This is not a real online serivce! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up <i>now</i> to get started. <br><br>You <i>know</i> you want to.</h3>
             <div class="signup-form">
+
                 <h3>Let's do this</h3>
-                <form action="#">
-                    <label for="First Name"></label>
-                    <input type="text" name="first_name" placeholder="John">
-                    <label for="First Name"></label>
-                    <input type="text" name="first_name" placeholder="John">
-                    <label for="First Name"></label>
-                    <input type="text" name="first_name" placeholder="John">
-                    <label for="First Name"></label>
-                    <input type="text" name="first_name" placeholder="John">
-                    <label for="First Name"></label>
-                    <input type="text" name="first_name" placeholder="John">
-                    <label for="First Name"></label>
-                    <input type="text" name="first_name" placeholder="John">
+
+                <form action="#" class="form" id="form-form">
+
+                    <div class="input">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" required>
+                    </div>
+                    <div class="input">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" required>
+                    </div>
+                    <div class="input">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" name="password2" required>
+                    </div>
                 </form>
-                <button type="submit">Create Account</button>
+            </div>
+            <div class="button-submit">
+                               <button type="submit" form="form-form">Create Account</button>
                 <p>Already have an account? Log in</p>
             </div>
         </div>
