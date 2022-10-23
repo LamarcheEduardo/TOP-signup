@@ -28,7 +28,8 @@ body {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    border-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 .logo-name {
@@ -73,7 +74,8 @@ body {
     width: 30%;
     margin-left: -50px;
     padding-left: 50px;
-    border-radius: 6px;;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 .title-text {
@@ -132,4 +134,10 @@ button {
 button:active {
     transform: scale(0.98);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+#message {
+    margin-top: 25px;
+    font-size: 12px;
 }
