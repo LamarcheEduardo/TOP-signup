@@ -2,6 +2,8 @@ const password = document.getElementById('password-1');
 const password2  = document.getElementById('password-2');
 const message = document.getElementById('message');
 
+password.addEventListener('keyup', checkPasswords());
+password2.addEventListener('keyup', checkPasswords());
 
 const checkPasswords = () => {
     if(password.value == '') {
